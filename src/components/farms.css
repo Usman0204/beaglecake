@@ -1,0 +1,90 @@
+.farm-content .inner-tile {
+	background: #190053;
+    padding: 10px 0;
+    border-radius: 20px;
+    margin: 20px 0px;
+    border: 1px solid #be00fb !important;
+}
+
+.farm-content .brdr {
+	border-bottom: 1px solid #be00fb;
+}
+
+.inner-circle{
+    margin-top: 10px;
+}
+.farm-content .inner-circle span {
+	background: #be00fb;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+.farm-content .ptb20 {
+	padding: 20px 0;
+}
+
+.farm-content ul {
+	margin-bottom: 10px;
+}
+
+.farm-content .form-group {
+	margin-bottom: 0px;
+}
+
+.farm-content .modal-content {
+background: #190053;
+    padding: 10px 0;
+    border-radius: 20px;
+    margin: 25px 0px;
+    border: 1px solid #be00fb !important;
+
+}
+
+.farm-content .modal-body {
+	padding: 0px;
+}
+
+.farm-content .modal-body h5 {
+		font-size: 15px;
+		margin: 10px 0;
+}
+
+.farm-content .form-control {
+	 background-color: #3b0d5b;
+    color: #fff !important;
+    padding: 8px 15px;
+    height: 43px;
+    border-radius: 22px;
+    text-decoration: none;
+    font-size: 16px;
+    width: 100%;
+    border: none;
+    cursor: pointer !important;
+}
+
+
+.plus,
+.minus {
+		background: #be00fb;
+    border-radius: 20px;
+    font-size: 16px;
+    padding: 5px 8px;
+}
+.margin_margin{
+    margin-top: 10px;
+}
+
+
+.farm-content .form-group {
+	margin-bottom: 0px;
+	position: relative;
+}
+.size12 {
+	font-size: 12px;
+}
+.farm-content .inner-max ul.list-inline{
+	position: absolute;
+    top: 5px;
+    right: 5px;
+}

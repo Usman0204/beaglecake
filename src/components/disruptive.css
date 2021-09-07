@@ -1,0 +1,33 @@
+.disrpt-content {
+	background: #101225;
+    padding: 25px;
+    border-radius: 20px;
+    margin: 25px 0px;
+    border: 1px solid #be00fb;
+}
+
+.disrpt-content .form-group {
+	position: relative;
+}
+
+.disrpt-content .form-group span {
+	position: absolute;
+    top: 12px;
+    right: 14px;
+    font-size: 14px;
+}
+
+.disrpt-content .form-group input {
+    background-color: #3b0d5b;
+    color: #fff !important;
+    padding: 8px 15px;
+    height: 50px;
+    border-radius: 22px;
+    text-decoration: none;
+    margin: 20px 0;
+    font-size: 16px;
+    width: 100%;
+    border: none;
+    cursor: pointer !important;
+
+}

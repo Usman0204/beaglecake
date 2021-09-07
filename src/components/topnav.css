@@ -1,0 +1,23 @@
+.inner-contents a {
+    text-decoration: none !important;
+    color: #190053;
+    padding: 10px;
+    font-size: 18px ;
+
+
+  }
+  .inner-contents a:hover {
+    border-bottom: 1px solid #be00fb;
+    color: #fff !important;
+    
+  }
+
+  .active {
+        border-bottom: 1px solid #be00fb !important;
+  }
+  .marrgins_bottom{
+    margin-bottom: 30px;
+  }
+  .w-35{
+    width: 35px;
+  }
