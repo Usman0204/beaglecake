@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56.966" height="59" viewBox="0 0 56.966 59">
+  <g id="yfeth-eth" transform="translate(0 0)">
+    <g id="Group_5" data-name="Group 5">
+      <path id="Subtraction_1" data-name="Subtraction 1" d="M-4283.359-1264.315h0a19.675,19.675,0,0,1-14.64-19.018,19.537,19.537,0,0,1,5.761-13.907,19.537,19.537,0,0,1,13.906-5.76,19.654,19.654,0,0,1,12.9,4.817,19.662,19.662,0,0,1,6.556,11.922c-.6-.047-1.208-.072-1.819-.072a22.547,22.547,0,0,0-22.658,22.016Z" transform="translate(4298 1303)" fill="#be00fb"/>
+      <path id="Subtraction_2" data-name="Subtraction 2" d="M-4290.967-1281.187h0l-2.692-2.019v-11.48l2.931-2.2v15.2c-.077.156-.155.318-.237.5Zm1.254-2.343v-17.555A1.917,1.917,0,0,1-4287.8-1303a1.917,1.917,0,0,1,1.915,1.915v12.855a22.736,22.736,0,0,0-3.828,4.7Zm-5.356-.409h0l-2.93-2.2v-10.991l.071-.047,7.2-5.083-.055,3.663-4.285,2.922v11.735Zm10.2-5.189v-12.887l2.932,2.2v8.617a22.831,22.831,0,0,0-2.93,2.07Zm4.34-2.842v-7.358l2.931,2.2v3.939a22.634,22.634,0,0,0-2.929,1.219Z" transform="translate(4307.675 1311.031)" fill="#fff"/>
+    </g>
+    <g id="Group_24" data-name="Group 24" transform="translate(17.632 19.667)">
+      <circle id="Ellipse_6379" data-name="Ellipse 6379" cx="19.667" cy="19.667" r="19.667" transform="translate(0 0)" fill="#be00fb"/>
+      <g id="Ethereum-icon-purple" transform="translate(11.591 6.184)">
+        <path id="Path_39" data-name="Path 39" d="M428.192,80.7,420.1,94.128l8.092-3.678Z" transform="translate(-420.1 -80.7)" fill="#fff"/>
+        <path id="Path_40" data-name="Path 40" d="M428.192,731l-8.092,3.678,8.092,4.784Z" transform="translate(-420.1 -721.25)" fill="#c1ccf7"/>
+        <path id="Path_41" data-name="Path 41" d="M967.893,94.128,959.8,80.7v9.75Z" transform="translate(-951.708 -80.7)" fill="#c1ccf7"/>
+        <path id="Path_42" data-name="Path 42" d="M959.8,739.462l8.094-4.784L959.8,731Z" transform="translate(-951.708 -721.25)" fill="#8198ee"/>
+        <path id="Path_43" data-name="Path 43" d="M420.1,1078.7l8.092,11.4v-6.623Z" transform="translate(-420.1 -1063.736)" fill="#fff"/>
+        <path id="Path_44" data-name="Path 44" d="M959.8,1083.481v6.623l8.1-11.4Z" transform="translate(-951.708 -1063.736)" fill="#c1ccf7"/>
+      </g>
+    </g>
+  </g>
+</svg>

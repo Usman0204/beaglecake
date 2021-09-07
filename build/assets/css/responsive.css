@@ -1,0 +1,202 @@
+/*******************************************************
+    Template Name    : Ripple - Bitcoin & Cryptocurrency Landing Page
+    Author           : Cute Themes
+    Version          : 1.0
+    Created          : 2020
+    File Description : Main Reaposive file of the template
+*******************************************************/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.home-area {
+		padding-top: 170px;
+		padding-bottom: 40px;
+	}	.home-area .home-content h1 {
+		font-size: 45px;
+	}
+	.home-content-image {
+		text-align: center;
+		margin-top: 35px;
+	}
+	.rs-padding {
+		padding: 15px;
+	}
+	.about-image {
+		text-align: center;
+	}
+	.services-content {
+		padding: 30px 20px;
+	}
+	.overview-images {
+		text-align: center;
+	}
+	.faq-accordion.first-faq {
+		margin-bottom: 20px;
+	}
+
+}
+
+@media only screen and (max-width: 767px) {
+	.rs-padding {
+		padding: 15px;
+	}
+	.section-title h2 {
+		font-size: 30px;
+	}
+	.header-navber-area .nav-top-bar {
+		display: none;
+	}
+	#navbarDefault {
+		width: 100%;
+		height: 250px;
+		overflow-y: scroll;
+	}
+	.home-area {
+		padding-top: 130px;
+	}
+	.home-area .home-content h1 {
+		font-size: 45px;
+	}
+	.home-content-image {
+		text-align: center;
+		margin-top: 35px;
+	}
+	.rs-padding {
+		padding: 15px;
+	}
+	.about-image {
+		text-align: center;
+	}
+	.services-content {
+		padding: 30px 20px;
+	}
+	.overview-images {
+		text-align: center;
+	}
+	.faq-accordion.first-faq {
+		margin-bottom: 20px;
+	}
+	.footer-content.mid-content {
+		padding-left: 0;
+	}
+
+}
+
+
+@media only screen and (max-width: 479px) {
+	.section-title h2 {
+		font-size: 30px;
+	}
+	.navbar-nav {
+		margin-top: 15px;
+	}
+
+	.home-area {
+		padding-top: 130px;
+	}
+	.home-area .home-content h1 {
+		font-size: 35px;
+	}
+	.home-content-image {
+		text-align: center;
+		margin-top: 35px;
+	}
+	.rs-padding {
+		padding: 15px;
+	}
+	.about-image {
+		text-align: center;
+	}
+	.services-content {
+		padding: 30px 20px;
+	}
+	.overview-images {
+		text-align: center;
+	}
+	.roadmap-area .events-content {
+		width: 90%;
+	}
+	.testimonial-item {
+		padding: 15px 15px;
+		text-align: center;
+	}
+	.faq-accordion .accordion .accordion-item .accordion-title i {
+		right: 20px;
+	}
+	.faq-accordion .accordion .accordion-item .accordion-title {
+		padding-right: 40px;
+	}
+	.faq-accordion.first-faq {
+		margin-bottom: 20px;
+	}
+	.download-content .download-btn .app-link-btn-1 {
+		margin-bottom: 20px;
+	}
+	.footer-content.mid-content {
+		padding-left: 0;
+	}
+
+}
+
+
+@media screen and (max-width: 320px) and (min-width: 0px){
+	.section-title h2 {
+		font-size: 30px;
+	}
+	h2 {
+		font-size: 28px;
+	}
+	.navbar-nav {
+		margin-top: 15px;
+	}
+	#navbarDefault {
+		width: 100%;
+		height: auto;
+		overflow-y: scroll;
+	}
+
+	.home-area {
+		padding-top: 130px;
+	}
+	.home-area .home-content h1 {
+		font-size: 30px;
+	}
+	.home-content-image {
+		text-align: center;
+		margin-top: 35px;
+	}
+	.rs-padding {
+		padding: 15px;
+	}
+	.about-image {
+		text-align: center;
+	}
+	.services-content {
+		padding: 30px 20px;
+	}
+	.overview-images {
+		text-align: center;
+	}
+	.roadmap-area .events-content {
+		width: 90%;
+	}
+	.testimonial-item {
+		padding: 15px 15px;
+		text-align: center;
+	}
+	.faq-accordion .accordion .accordion-item .accordion-title i {
+		right: 20px;
+	}
+	.faq-accordion .accordion .accordion-item .accordion-title {
+		padding-right: 40px;
+	}
+	.faq-accordion.first-faq {
+		margin-bottom: 20px;
+	}
+	.download-content .download-btn .app-link-btn-1 {
+		margin-bottom: 20px;
+	}
+	.footer-content.mid-content {
+		padding-left: 0;
+	}
+	
+}
