@@ -11,7 +11,7 @@ const Topnav = () => {
             <ul className="list-inline">
               <li className="list-inline-item">
                 <NavLink exact activeClassName="active" to="/">
-                  Clain BNB
+                  Claim BNB
                 </NavLink>
               </li>
               <li className="list-inline-item">

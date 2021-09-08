@@ -13,7 +13,10 @@ const Dashboard = () => {
             <div className="row">
                 <div className="col-sm-12 text-center">
                     <div className="inner-content-slider">
-                        <div className="inner-tile-slider">
+                      <div className="customslider">
+
+                        </div>
+                        {/* <div className="inner-tile-slider">
                             <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
                               <ol className="carousel-indicators">
                                 <li data-target="#carouselExampleIndicators" data-slide-to="0" ></li>
@@ -32,7 +35,7 @@ const Dashboard = () => {
                                 </div>
                               </div>
                             </div>  
-                        </div>
+                        </div> */}
                         <RewardPool/>
                         <TransactionInfo/>
                     </div>
