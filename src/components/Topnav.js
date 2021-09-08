@@ -14,7 +14,7 @@ const Topnav = () => {
                   Claim BNB
                 </NavLink>
               </li>
-              <li className="list-inline-item">
+              {/* <li className="list-inline-item">
                 <NavLink  exact activeClassName="active" to="/transfer" >
                   Disruptive Transfer
                 </NavLink>
@@ -23,7 +23,7 @@ const Topnav = () => {
                 <NavLink  exact activeClassName="active" to="/zcz">
                   Statistics
                 </NavLink>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
