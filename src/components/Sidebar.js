@@ -4,6 +4,7 @@ import  {getaccount} from '../utils/Providers'
 import { ContarctAction } from '../redux/action';
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from 'react-router-dom';
+import {WithdrawabaleDividendOf  } from '../utils/TruffleProvider';
 import './sidebar.css'
 import {} from '../utils/TruffleProvider';
 const Sidebar = () => {
@@ -12,7 +13,7 @@ const Sidebar = () => {
   const [Useraccount, setAccount] = React.useState();
   const [txcontract, settxContract] = React.useState();
   const [checkuser, setcheckuser] = React.useState(false);
-
+  const { withdrawabaleDividendOf } = WithdrawabaleDividendOf()
  
   const ConnectToWallet =async  () => {
     if (checkuser && Useraccount!==undefined) {
@@ -33,12 +34,12 @@ const Sidebar = () => {
         }
       
       }
-  useEffect(() => {
-    if (Useraccount !== undefined && txcontract !== undefined) {
-      dispatch(ContarctAction(Useraccount, txcontract))
-    }
+  // useEffect(() => {
+  //   if (Useraccount !== undefined && txcontract !== undefined) {
+  //     dispatch(ContarctAction(Useraccount, txcontract))
+  //   }
 
-  }, [Useraccount, txcontract])
+  // }, [Useraccount, txcontract])
   return (
     <>
       <div className="inner-content">
@@ -73,7 +74,7 @@ const Sidebar = () => {
           </div>
           <div className="p15">
           <h4>Your Balance:</h4>
-          {/* <h5>YFETH 10.50</h5> */}
+          <h5>{withdrawabaleDividendOf}</h5>
           <h6>{Useraccount ? balance : ""}</h6>
           <h6>(50.20 $)</h6>
           </div>

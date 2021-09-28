@@ -5,12 +5,12 @@ import { MaxtransactionAmount } from '../utils/TruffleProvider';
 
 
 const TransactionInfo = () => {
-    const [maxAmount,setmaxAmount]=React.useState()
-    const getMaxAmount= async()=>{
-        const amount= await MaxtransactionAmount();
-        setmaxAmount(amount);
-    }
-    getMaxAmount();
+    // const [maxAmount,setmaxAmount]=React.useState()
+    // const getMaxAmount= async()=>{
+    //     const amount= await MaxtransactionAmount();
+    //     setmaxAmount(amount);
+    // }
+    // getMaxAmount();
     return (
         <>
         <section className="last-section">
@@ -32,7 +32,8 @@ const TransactionInfo = () => {
                                     <ul className="list-inline">
                                         <li className="list-inline-item">
                                             <Link>
-                                                <span className="size">BEAGLECAKE {maxAmount}</span>&nbsp;
+                                            {/* {maxAmount} */}
+                                                <span className="size">BEAGLECAKE </span>&nbsp;
                                                 <img src="assets/img/yfeth-assets/copy-icon.svg" alt="" className="img-fluid"/>
                                             </Link>
                                         </li>

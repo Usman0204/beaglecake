@@ -1,18 +1,42 @@
-import React from 'react';
+import React,{useCallback} from 'react';
 import { useSelector } from 'react-redux'
-import { getContractBalance } from '../utils/TruffleProvider';
-
+import { getContractBalance,ClaimTokens } from '../utils/TruffleProvider';
+import useAuth from '../hooks/useAuth'
+import { useWeb3React } from '@web3-react/core'
 const RewardPool = () => {
     const [balance,setbalance]=React.useState();
-    const getBalance= async()=>{
-        const ContractBalance= await getContractBalance();
-        setbalance(ContractBalance)
-    //  console.log("ContractBalance",ContractBalance);
-    }
-    getBalance();
+    const { login } = useAuth();
+    const { account } = useWeb3React();
+    const { claimToken } = ClaimTokens()
+    const FirstClaimToken = useCallback(async (e) => {
+        e.preventDefault();
+        if (account) {
+            try {
+                await claimToken();
+            }
+            catch (err) {
+                return false;
+            }
+        }
+        else {
+            login("injected")
+        }
+    }, [claimToken])
+    // const getBalance= async()=>{
+    //     const ContractBalance= await getContractBalance();
+    //     setbalance(ContractBalance)
+    // //  console.log("ContractBalance",ContractBalance);
+    // }
+    // getBalance();
     // console.log("ContractBalance",getBalance());    
-    
+     
+    // const ClaimsToken=async()=>{
+    //     const c =await Claims()
+    //     console.log("c",c)
+    // }
     const { reward } = useSelector((state) => state.UserReducer);
+
+  
     return (
         <>
     <section className="secondlast">
@@ -33,10 +57,12 @@ const RewardPool = () => {
                                     <h4>My Reward: <strong>{reward} BNB</strong> </h4>
                                     {/* <h6 className="common-g ptb20">*pool is always changing based on buys, sell, and collects by others, learn more here<span className="br">?</span></h6> */}
                                     <h5 className="ptb20">You will be received {reward} BNB (ather tax)</h5>
-                                    <button className="btn-commonclaim" style={{marginTop:'10px'}}>
+                                    <button className="btn-commonclaim" style={{marginTop:'10px'}} onClick={FirstClaimToken}>
                                         <img src="assets/img/yfeth-assets/claim-reward-icon.svg" alt="" className="img-fluid"/>
                                         <span className=""> Claim My Reward</span> 
+                                       
                                     </button>
+                                  
                                 </div>
                             </div>                
                         </div>

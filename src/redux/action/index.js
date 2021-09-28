@@ -12,7 +12,7 @@ export const ContarctAction = (Useraccount, txiContract,amount,recipt) => async 
         });
       });
       txiContract.methods
-      .calculateBNBReward(Useraccount)
+      .withdrawabaleDividendOf(Useraccount)
       .call()
       .then((reward) => { 
         // console.log("reward",reward);    
